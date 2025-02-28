@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Segmentation & Prediction</title>
+</head>
+<body>
+    <h1>Customer Segmentation & Spending Score Prediction</h1>
+    
+    <h2>1. Actual vs Predicted Spending Scores</h2>
+    <img src="{{ url_for('static', filename='actual_vs_predicted.png') }}" alt="Actual vs Predicted Plot">
+    
+    <h2>2. Elbow Method for Optimal Clusters</h2>
+    <img src="{{ url_for('static', filename='elbow_method.png') }}" alt="Elbow Method Plot">
+    
+    <h2>3. Average Feature Values per Cluster</h2>
+    <img src="{{ url_for('static', filename='feature_cluster_plot.png') }}" alt="Feature Cluster Plot">
+</body>
+</html>
